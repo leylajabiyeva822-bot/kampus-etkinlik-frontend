@@ -1,4 +1,4 @@
-export type Category = "Seminer" | "Atölye" | "Konser" | "Spor";
+export type Category = "Seminer" | "Atölye" | "Söyleşi" | "Yarışma" | "Konser";
 
 export interface CampusEvent {
   id: string;

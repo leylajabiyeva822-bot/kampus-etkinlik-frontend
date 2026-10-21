@@ -43,7 +43,7 @@ export default function App() {
 
   const upcoming = [...events].sort((a, b) => a.date.localeCompare(b.date)).slice(0, 2);
   const filtered = filterByCategory(searchEvents(events, searchText), category);
-const categories: Category[] = ["Seminer", "Atölye", "Konser"];
+  const categories: Category[] = ["Seminer", "Atölye", "Söyleşi", "Yarışma", "Konser"];
 
   return (
     <>
@@ -54,10 +54,11 @@ const categories: Category[] = ["Seminer", "Atölye", "Konser"];
             ? "Fakültedeki seminer, atölye ve söyleşileri tek yerden takip edin."
             : undefined
         }
-      />
-      <Navigation current={page} onNavigate={go} />
+      >
+        <Navigation current={page} onNavigate={go} />
+      </Header>
 
-      <main>
+      <main className="ana-icerik">
         {page === "home" && (
           <section className="etkinlik-listesi">
             <h2>Yaklaşan 2 Etkinlik</h2>
@@ -78,7 +79,7 @@ const categories: Category[] = ["Seminer", "Atölye", "Konser"];
               onSearchChange={setSearchText}
               onCategoryChange={setCategory}
             />
-            <p>
+            <p className="sonuc-sayisi">
               {filtered.length === 0
                 ? "Etkinlik bulunamadı."
                 : `${filtered.length} etkinlik listeleniyor.`}

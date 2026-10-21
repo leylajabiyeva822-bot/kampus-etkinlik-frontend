@@ -1,13 +1,19 @@
+import type { ReactNode } from "react";
+
 interface HeaderProps {
   title: string;
   text?: string;
+  children?: ReactNode;
 }
 
-export default function Header({ title, text }: HeaderProps) {
+export default function Header({ title, text, children }: HeaderProps) {
   return (
     <header className="site-baslik">
-      <h1>{title}</h1>
-      {text && <p>{text}</p>}
+      <div className="header-icerik">
+        <h1>{title}</h1>
+        {text && <p>{text}</p>}
+        {children}
+      </div>
     </header>
   );
 }
