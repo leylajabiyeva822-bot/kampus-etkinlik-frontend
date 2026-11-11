@@ -1,0 +1,58 @@
+import type { CampusEvent } from "../types/campus-event";
+
+export const events: CampusEvent[] = [
+  {
+    id: "1",
+    title: "Kariyer Günleri 2026",
+    date: "2026-11-15T14:00",
+    location: "Merkez Kampüs",
+    category: "Seminer",
+    quota: 150,
+    description: "Sektörün önde gelen firmalarıyla tanışma fırsatı.",
+  },
+  {
+    id: "2",
+    title: "Robotik Atölyesi",
+    date: "2026-11-20T10:00",
+    location: "Bilgisayar Lab 1",
+    category: "Atölye",
+    quota: 30,
+    description: "Sıfırdan modern web geliştirme eğitimi.",
+  },
+  {
+    id: "3",
+    title: "Siber Güvenlik Söyleşisi",
+    date: "2026-11-27T13:00",
+    location: "B Blok Amfi 1",
+    category: "Söyleşi",
+    quota: 50,
+    description: "Sektörde en uzmanda güvenlik.",
+  },
+  {
+    id: "4",
+    title: "Web Tasarım Atölyesi",
+    date: "2026-12-03T15:00",
+    location: "Bilgisayar Laboratuvarı",
+    category: "Atölye",
+    quota: 40,
+    description: "HTML ve CSS ile ilk kişisel sayfanı yap.",
+  },
+  {
+    id: "5",
+    title: "Kodlama Yarışması",
+    date: "2026-12-10T09:30",
+    location: "Kütüphane Etkinlik Alanı",
+    category: "Yarışma",
+    quota: 10,
+    description: "Üç kişilik takımlarla dört saatlik algoritma yarışması.",
+  },
+  {
+    id: "6",
+    title: "Yapay Zekâ Semineri",
+    date: "2026-12-16T14:30",
+    location: "Yer: A Blok Konferans Salonu",
+    category: "Seminer",
+    quota: 100,
+    description: "Büyük dil modelleri nasıl çalışır? Temel kavramlar ve örnekler.",
+  },
+];
