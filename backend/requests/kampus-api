@@ -1,8 +1,10 @@
 {
   "info": {
-    "_postman_id": "c1f7a0b3-e5d2-4d89-9d7a-kampus-api",
+    "_postman_id": "38e6d992-3b93-45bb-8c87-07d2fa76359b",
     "name": "Kampüs API",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60275497",
+    "_collection_link": "https://go.postman.co/collection/60275497-38e6d992-3b93-45bb-8c87-07d2fa76359b?source=collection_link"
   },
   "item": [
     {
@@ -13,11 +15,16 @@
         "url": {
           "raw": "http://localhost:3000/health",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["health"]
+          "path": [
+            "health"
+          ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "2 Etkinlik listesi",
@@ -27,11 +34,16 @@
         "url": {
           "raw": "http://localhost:3000/events",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["events"]
+          "path": [
+            "events"
+          ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "3 Tek etkinlik",
@@ -39,13 +51,19 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/events/event-2",
+          "raw": "http://localhost:3000/events/6afd4d8c5d90dfbfec496531",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["events", "event-2"]
+          "path": [
+            "events",
+            "6afd4d8c5d90dfbfec496531"
+          ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "4 Olmayan etkinlik (404)",
@@ -55,11 +73,17 @@
         "url": {
           "raw": "http://localhost:3000/events/yok",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["events", "yok"]
+          "path": [
+            "events",
+            "yok"
+          ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "5 Etkinlik oluştur (201)",
@@ -78,11 +102,16 @@
         "url": {
           "raw": "http://localhost:3000/events",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["events"]
+          "path": [
+            "events"
+          ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "6 Eksik veri (400)",
@@ -101,11 +130,16 @@
         "url": {
           "raw": "http://localhost:3000/events",
           "protocol": "http",
-          "host": ["localhost"],
+          "host": [
+            "localhost"
+          ],
           "port": "3000",
-          "path": ["events"]
+          "path": [
+            "events"
+          ]
         }
-      }
+      },
+      "response": []
     }
   ]
 }

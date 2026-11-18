@@ -24,4 +24,15 @@ app.use((req, res) => {
   res.status(404).json({ error: { message: "Route not found" } });
 });
 
+// Eşleşmeyen bir adres girilirse (Route not found)
+app.use((req, res) => {
+  res.status(404).json({ error: { message: "Route not found" } });
+});
+
+// Beklenmeyen bir hata oluşursa sunucu çökmesin (Server error)
+app.use((err, req, res, next) => {
+  console.error(err.message);
+  res.status(500).json({ error: { message: "Server error" } });
+});
+
 export default app;

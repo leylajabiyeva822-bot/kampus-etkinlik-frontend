@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 5971dd35-ab78-4576-85b5-039724f7444b
+
+localResources:
+  collections:
+    - ../backend/requests/kampus-api.json
