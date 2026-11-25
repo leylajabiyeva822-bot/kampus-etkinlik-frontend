@@ -3,54 +3,54 @@ export const seedEvents = [
     title: "Kariyer Günleri 2026",
     category: "Seminer",
     capacity: 300,
-    date: "2026-12-01",
+    date: "01-12-2026",
     time: "14:00",
     location: "A Blok Konferans Salonu",
     description: "Mezunlarla kariyer söyleşileri ve şirket standları."
   },
   {
-    title: "Git ve GitHub Atölyesi",
+    title: "Robotik Atölyesi",
     category: "Atölye",
     capacity: 50,
-    date: "2026-12-05",
+    date: "15-10-2026",
     time: "10:00",
     location: "Bilgisayar Laboratuvarı 1",
-    description: "Sıfırdan versiyon kontrol sistemleri eğitimi."
+    description: "Temel sensör ve motor kontrolü uygulamaları."
   },
   {
-    title: "Teknoloji Söyleşileri",
+    title: "Siber Güvenlik Söyleşisi",
     category: "Söyleşi",
     capacity: 100,
-    date: "2026-12-10",
+    date: "08-12-2026",
     time: "15:30",
     location: "Kütüphane Seminer Odası",
-    description: "Yapay zeka ve siber güvenlik üzerine açık oturum."
+    description: "Ağ güvenliği ve sızma testleri üzerine açık oturum."
   },
   {
-    title: "Robotik Kodlama Yarışması",
-    category: "Yarışma",
+    title: "Web Tasarım Atölyesi",
+    category: "Atölye",
     capacity: 40,
-    date: "2026-12-15",
+    date: "05-11-2026",
     time: "09:00",
-    location: "Kapalı Spor Salonu",
-    description: "Otonom araç kategorisinde ödüllü üniversite yarışması."
+    location: "Bilgisayar Laboratuvarı 2",
+    description: "Modern arayüz ve duyarlı tasarım temelleri."
   },
   {
-    title: "TÜBİTAK Proje Hazırlama",
-    category: "Seminer",
+    title: "Kodlama Yarışması",
+    category: "Yarışma",
     capacity: 150,
-    date: "2026-12-20",
+    date: "15-12-2026",
     time: "13:00",
     location: "Mühendislik Fakültesi Zemin Kat",
-    description: "2209-A projeleri için başvuru ve yazım teknikleri."
+    description: "Algoritma ve problem çözme maratonu."
   },
   {
-    title: "React ile Web Geliştirme",
-    category: "Atölye",
+    title: "Yapay Zeka Semineri",
+    category: "Seminer",
     capacity: 60,
-    date: "2026-12-25",
+    date: "17-12-2026",
     time: "11:00",
-    location: "Bilgisayar Laboratuvarı 2",
-    description: "Frontend mimarisi ve React component yapısı."
+    location: "B Blok Amfi",
+    description: "Büyük dil modelleri ve gelecek öngörüleri."
   }
 ];
